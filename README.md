@@ -8,7 +8,7 @@ This repository contains two R Jupyter notebooks analyzing monthly time series d
 2. **Exploratory Analysis**: Plot chronograms to visualize trends and seasonality; summarize data (`head`, `summary`).
 3. **Seasonality and Trend Check**: Identify non-stationarity (ADF test), observe seasonal patterns (ACF/PACF).
 4. **Stationarity Adjustment**: Apply differencing (trend and seasonal) to achieve stationarity.
-5. **ARIMA Modeling**: Use `auto.arima` and `arima` to fit models based on ACF/PACF analysis.
+5. **ARIMA Modeling**: Use `arima` to fit models based on ACF/PACF analysis.
 6. **Model Validation**: Confirm residuals are white noise (Ljung-Box test, p > 0.05).
 7. **Forecasting Readiness**: Models validated, ready for future predictions.
 
